@@ -1,0 +1,19 @@
+
+img {
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    
+}
+.text{
+    text-align: left;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+.outer-box{
+    display:flex;
+    flex-direction:row;
+    border: 1px solid red;
+}
