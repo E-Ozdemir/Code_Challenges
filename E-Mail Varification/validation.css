@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.displayClass, .container, .area__email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#503b50), to(#181717));
+  background-image: linear-gradient(#503b50, #181717);
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+.input__email {
+  width: 250px;
+  height: 25px;
+  margin: 2rem 0;
+  border-radius: 5px;
+  outline: none;
+  padding: 0 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+/*# sourceMappingURL=validation.css.map */

@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.displayClass{
+
+}
 .container{
     background-image: linear-gradient(rgb(80, 59, 80), rgb(24, 23, 23));
     display: flex;

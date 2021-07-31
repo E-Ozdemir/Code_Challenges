@@ -3,20 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    background-image: linear-gradient(rgb(80, 59, 80), rgb(24, 23, 23));
+.displayClass{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.container{
+    @extend .displayClass;
+    background-image: linear-gradient(rgb(80, 59, 80), rgb(24, 23, 23));
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
 }
 .area__email{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @extend .displayClass;
     
 }
 .input__email{
