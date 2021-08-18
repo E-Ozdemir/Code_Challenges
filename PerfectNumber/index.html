@@ -12,9 +12,7 @@
             <input type="button" id="btnHesap" value="HESAPLA"><br><br>
             <label id="lblSonuc"></label>
         </form>
-                    
 <script>
-
     var btn=document.getElementById("btnHesap");
     btn.onclick=function(){
         var i,j;
@@ -29,10 +27,13 @@
          }
              if (sayi==toplam)
              {
-                
-                document.getElementById("lblSonuc").innerHTML=sayi + " Sayısı Mükemmel Sayıdır";	 
+                document.getElementById("lblSonuc").innerHTML=sayi + " Sayısı Mükemmel Sayıdır";	
              }
              else
              {
-                document.getElementById("lblSonuc").innerHTML=sayi + "degildir";
-            }
+                document.getElementById("lblSonuc").innerHTML=sayi + " Sayısı Mükemmel Sayı Değildir";
+             }
+         }
+</script>
+</body>
+</html>
